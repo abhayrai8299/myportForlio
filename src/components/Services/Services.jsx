@@ -27,9 +27,9 @@ const Services = () => {
         <span style={{ color: darkMode ? "white" : "" }}>My Awesome</span>
         <span>services</span>
         <spane>
-          Lorem ispum is simpley dummy text of printing of printing Lorem
+         React front end developer with 2 years of experience building websites and web applications
           <br />
-          ispum is simpley dummy text of printing
+          using React JS,Redux,Restful API's and modern JavaScript tools/frameworks.
         </spane>
         <a href={Resume} download>
           <button className="button s-button">Download CV</button>
@@ -46,8 +46,8 @@ const Services = () => {
         >
           <Card
             emoji={HeartEmoji}
-            heading={"Design"}
-            detail={"Figma, Sketch, Photoshop, Adobe Illustrator, Adobe xd"}
+            heading={"Proficient"}
+            detail={"Data Structures, Algorithms,C++,C,React JS,Redux"}
           />
         </motion.div>
         {/* second card */}
@@ -58,8 +58,8 @@ const Services = () => {
         >
           <Card
             emoji={Glasses}
-            heading={"Developer"}
-            detail={"Html, Css, JavaScript, React, Nodejs, Express"}
+            heading={"Frontend Developer"}
+            detail={"Html, Css, JavaScript, React,Redux,Redux Thunk, Nodejs, Express,Bootstrap,Materail UI,Rest API"}
           />
         </motion.div>
         {/* 3rd */}
@@ -70,10 +70,8 @@ const Services = () => {
         >
           <Card
             emoji={Humble}
-            heading={"UI/UX"}
-            detail={
-              "Lorem ispum dummy text are usually use in section where we need some random text"
-            }
+            heading={"Tools"}
+            detail={"Git,GitHub,Heroku,Netlify,Agile Methodology,Webpack"}
             color="rgba(252, 166, 31, 0.45)"
           />
         </motion.div>

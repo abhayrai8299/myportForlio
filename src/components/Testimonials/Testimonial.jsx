@@ -15,22 +15,22 @@ const Testimonial = () => {
     {
       img: profilePic1,
       review:
-        "Lorem ipsum dolor, sit amet consectetur adipisicing elit. Ex officiis molestiae quod tempora laudantium, cumque error a nisi placeat quae exercitationem, maiores reiciendis! Eaque dicta minima, iure maiores dolorum sed.",
+        "Abhay is a highly-skilled, helpful, and experienced professional who can easily tackle any problem. Her work is always outstanding, and he goes the extra mile to ensure a smooth and successful release for the team's projects. Working with Abhay has been a great experience, as I have learned much from her. I highly recommend Abhay as he possesses all the hard and soft skills needed in an excellent developer.",
     },
     {
       img: profilePic2,
       review:
-        "Lorem ipsum dolor, sit amet consectetur adipisicing elit. Ex officiis molestiae quod tempora laudantium, cumque error a nisi placeat quae exercitationem, maiores reiciendis! Eaque dicta minima, iure maiores dolorum sed.",
+        "Abhay is an excellent resource, and a master at front-end programming. He is a hardworking and dedicated person who has ability to handle multiple tasks within stipulated time frame. Abhay will be a valuable asset to any company.",
     },
     {
       img: profilePic3,
       review:
-        "Lorem ipsum dolor, sit amet consectetur adipisicing elit. Ex officiis molestiae quod tempora laudantium, cumque error a nisi placeat quae exercitationem, maiores reiciendis! Eaque dicta minima, iure maiores dolorum sed.",
+        "Abhay did an exceptional job on recent projects.He is a very productive person and is a multi-skilled person with vast knowledge which makes her both smart and professional. Experienced, deadline oriented and intelligent person! Has a lot of deep technical background. I recommend her to anyone who needs Software Engineer.",
     },
     {
       img: profilePic4,
       review:
-        "Lorem ipsum dolor, sit amet consectetur adipisicing elit. Ex officiis molestiae quod tempora laudantium, cumque error a nisi placeat quae exercitationem, maiores reiciendis! Eaque dicta minima, iure maiores dolorum sed.",
+        "Very smart, enthusiastic, energetic team player.He has ability to adapt herself into new technologies quickly.He use to give 100% output even beyond that. I proud to say that I have worked with such a good performance Abhay.",
     },
   ];
 

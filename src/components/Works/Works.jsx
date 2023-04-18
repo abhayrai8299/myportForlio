@@ -1,6 +1,10 @@
 import React, { useContext } from "react";
 import "./Works.css";
 import Upwork from "../../img/Upwork.png";
+import foody from "../../img/foody.png";
+import CalmAir from "../../img/CalmAir.png";
+import mploie from "../../img/mploi.png";
+import PacificCoastal from "../../img/PacificCoastal.png";
 import Fiverr from "../../img/fiverr.png";
 import Amazon from "../../img/amazon.png";
 import Shopify from "../../img/Shopify.png";
@@ -25,14 +29,13 @@ const Works = () => {
           </span>
           <span>Brands & Clients</span>
           <spane>
-            Lorem ispum is simpley dummy text of printing of printing Lorem
+          Document with a price showing the cost of that travel, passenger and journey details.
             <br />
-            ispum is simpley dummy text of printingLorem ispum is simpley dummy
-            text
+            Flight tickets have departure and arrival details, PNR and booking code, seat number, and boarding time on them.
             <br />
-            y dummy text of printingLorem
+            Passengers can also get their tickets by searching “Find flight tickets for X” through mobile applications or websites.
             <br />
-            ispum is simpley dummy text of printing
+            You might as well purchase cheap flight tickets on Calm.com or Pacific Coatel Airlines Mobile Application
           </spane>
           <Link to="contact" smooth={true} spy={true}>
             <button className="button s-button">Hire Me</button>
@@ -54,19 +57,19 @@ const Works = () => {
           className="w-mainCircle"
         >
           <div className="w-secCircle">
-            <img src={Upwork} alt="" />
+            <img src={foody} alt="" width={200} />
           </div>
           <div className="w-secCircle">
-            <img src={Fiverr} alt="" />
+            <img src={CalmAir} alt="" width={200}  />
           </div>
           <div className="w-secCircle">
-            <img src={Amazon} alt="" />
+            <img src={PacificCoastal} alt="" width={200} />
           </div>{" "}
           <div className="w-secCircle">
-            <img src={Shopify} alt="" />
+            <img src={mploie} alt="" width={200} />
           </div>
           <div className="w-secCircle">
-            <img src={Facebook} alt="" />
+            <img src={Shopify} alt="" />
           </div>
         </motion.div>
         {/* background Circles */}
