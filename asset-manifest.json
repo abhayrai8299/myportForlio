@@ -1,0 +1,32 @@
+{
+  "files": {
+    "main.css": "/abhayrai8299/myportForlio/static/css/main.990895bb.css",
+    "main.js": "/abhayrai8299/myportForlio/static/js/main.32134a7a.js",
+    "static/media/Meal.png": "/abhayrai8299/myportForlio/static/media/Meal.ff8685ac4d183f2dc19d.png",
+    "static/media/boy.png": "/abhayrai8299/myportForlio/static/media/boy.5ca4b670a32b71681d2c.png",
+    "static/media/image.png": "/abhayrai8299/myportForlio/static/media/image.7c44c7ff1b31483a6ede.png",
+    "static/media/store-api.png": "/abhayrai8299/myportForlio/static/media/store-api.3eabe285f86cda99805c.png",
+    "static/media/product-item.png": "/abhayrai8299/myportForlio/static/media/product-item.d8c71d2b606769a41127.png",
+    "static/media/store.jpg": "/abhayrai8299/myportForlio/static/media/store.afd885afebc622e1040f.jpg",
+    "static/media/glassesimoji.png": "/abhayrai8299/myportForlio/static/media/glassesimoji.a08bdab12e8eb56a6874.png",
+    "static/media/resume.pdf": "/abhayrai8299/myportForlio/static/media/resume.36228a411f86fd76e992.pdf",
+    "static/media/Expenditure.png": "/abhayrai8299/myportForlio/static/media/Expenditure.da78921cb471c92b0b1c.png",
+    "static/media/shoppingCart.webp": "/abhayrai8299/myportForlio/static/media/shoppingCart.45ed1635bf2a335a5849.webp",
+    "static/media/thumbup.png": "/abhayrai8299/myportForlio/static/media/thumbup.e06790ba656f0397cbe5.png",
+    "static/media/CalmAir.png": "/abhayrai8299/myportForlio/static/media/CalmAir.71bd921e25ad1c9bc356.png",
+    "static/media/humble.png": "/abhayrai8299/myportForlio/static/media/humble.c8b32b53675e68978981.png",
+    "static/media/heartemoji.png": "/abhayrai8299/myportForlio/static/media/heartemoji.26b1b6ed5e0e44083b28.png",
+    "static/media/demoStore.webp": "/abhayrai8299/myportForlio/static/media/demoStore.c290a5b624c1a119f3af.webp",
+    "static/media/wave.png": "/abhayrai8299/myportForlio/static/media/wave.fdfef4069ad90f610990.png",
+    "static/media/crown.png": "/abhayrai8299/myportForlio/static/media/crown.dbe416beae9b49b842ab.png",
+    "static/media/Vector2.png": "/abhayrai8299/myportForlio/static/media/Vector2.28db5bfd58081dd1df1b.png",
+    "static/media/glasses.png": "/abhayrai8299/myportForlio/static/media/glasses.71d7c1b0ff0b870a9d7d.png",
+    "index.html": "/abhayrai8299/myportForlio/index.html",
+    "main.990895bb.css.map": "/abhayrai8299/myportForlio/static/css/main.990895bb.css.map",
+    "main.32134a7a.js.map": "/abhayrai8299/myportForlio/static/js/main.32134a7a.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.990895bb.css",
+    "static/js/main.32134a7a.js"
+  ]
+}
