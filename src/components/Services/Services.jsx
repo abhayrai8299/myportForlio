@@ -27,7 +27,7 @@ const Services = () => {
         <span style={{ color: darkMode ? "white" : "" }}>My Awesome</span>
         <span>services</span>
         <spane>
-         React front end developer with 2 years of experience building websites and web applications
+         React front end developer with 2.7 years of experience building websites and web applications
           <br />
           using React JS,Redux,Restful API's and modern JavaScript tools/frameworks.
         </spane>

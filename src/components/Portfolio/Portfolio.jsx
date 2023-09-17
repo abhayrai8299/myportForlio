@@ -3,6 +3,11 @@ import "./Portfolio.css";
 import { Swiper, SwiperSlide } from "swiper/react"
 import "swiper/css";
 import Meal from "../../img/Meal.png";
+import Mploi from '../../img/mploie.png'
+import Minerva from '../../img/minerva.png'
+import CalmAir from '../../img/calmairline.png'
+import pacificCoastal from '../../img/pacificcoastel.png'
+import BearSkin from '../../img/BearSkin.png'
 import Expenditure from "../../img/Expenditure.png";
 import store from "../../img/store.jpg";
 import storeapi from "../../img/store-api.png";
@@ -26,6 +31,21 @@ const Portfolio = () => {
         grabCursor={true}
         className="portfolio-slider"
       >
+          <SwiperSlide>
+        <a href="https://www.equipped.ai/minerva-software">  <img src={Minerva} alt="" height={220} /></a>
+        </SwiperSlide>
+        <SwiperSlide>
+        <a href="https://mploi.com/">  <img src={Mploi} alt="" height={220} /></a>
+        </SwiperSlide>
+        <SwiperSlide>
+        <a href="https://www.calmair.com/">  <img src={CalmAir} alt="" height={220} /></a>
+        </SwiperSlide>
+        <SwiperSlide>
+        <a href="https://www.pacificcoastal.com/">  <img src={pacificCoastal} alt="" height={220} /></a>
+        </SwiperSlide>
+        <SwiperSlide>
+        <a href="https://www.bearskinairlines.com/">  <img src={BearSkin} alt="" height={220} /></a>
+        </SwiperSlide>
         <SwiperSlide>
         <a href="https://abhayrai8299.github.io/meal_order/">  <img src={Meal} alt="" height={220} /></a>
         </SwiperSlide>
