@@ -7,6 +7,7 @@ import Humble from "../../img/humble.png";
 import { themeContext } from "../../Context";
 import { motion } from "framer-motion";
 import Resume from './resume.pdf';
+import { Link } from "react-scroll";
 
 const Services = () => {
   // context
@@ -25,11 +26,15 @@ const Services = () => {
       <div className="awesome">
         {/* dark mode */}
         <span style={{ color: darkMode ? "white" : "" }}>My Awesome</span>
-        <span>services</span>
+        <Link to="services" smooth={true} spy={true}>
+          <span>Services</span>
+        </Link>
         <spane>
-         React front end developer with 2.7 years of experience building websites and web applications
+         Software developer with 2.7 years of experience building websites and web applications
           <br />
-          using React JS,Redux,Restful API's and modern JavaScript tools/frameworks.
+          using React JS,React Native,Redux,Thunk,Saga,Node JS,ASP.NET,C Sharp,MongoDB,MySQL,
+          <br />
+          Restful API's and modern JavaScript tools/frameworks.
         </spane>
         <a href={Resume} download>
           <button className="button s-button">Download CV</button>

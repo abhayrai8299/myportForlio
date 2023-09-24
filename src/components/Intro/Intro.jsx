@@ -31,8 +31,8 @@ const Intro = () => {
           <span style={{ color: darkMode ? "white" : "" }}>Hy! I Am</span>
           <span>Abhay Rai</span>
           <span>
-            Frontend Developer with high level of experience in web designing
-            and development, producting the Quality work using React JS and Redux.
+            Software Developer with high level of experience in web designing
+            and development, producting the Quality work using React JS and Redux,React Native,Node JS,ASP.NET,C Sharp,MongoDB,MySQL.
           </span>
         </div>
         <Link to="contact" smooth={true} spy={true}>
