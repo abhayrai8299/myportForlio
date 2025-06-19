@@ -10,27 +10,48 @@ import Contact from "./components/Contact/Contact";
 import Footer from "./components/Footer/Footer";
 import { useContext } from "react";
 import { themeContext } from "./Context";
+
 function App() {
   const theme = useContext(themeContext);
   const darkMode = theme.state.darkMode;
+
   return (
     <div
-      className="App"
-      style={{
-        background: darkMode ? "black" : "",
-        color: darkMode ? "white" : "",
-      }}
-    >
+    className="App"
+    style={{
+      background: darkMode ? "black" : "",
+      color: darkMode ? "white" : "",
+    }}
+  >
+    <div id="Navbar">
       <Navbar />
       <Intro />
+    </div>
+
+    <div id="services">
       <Services />
+    </div>
+
+    <div id="works">
       <Experience />
       <Works />
-      <Portfolio />
-      <Testimonial />
-      <Contact />
-      <Footer />
     </div>
+
+    <div id="portfolio">
+      <Portfolio />
+    </div>
+
+    <div id="testimonial">
+      <Testimonial />
+    </div>
+
+    <div id="contact">
+      <Contact />
+    </div>
+
+    <Footer />
+  </div>
+
   );
 }
 

@@ -29,13 +29,12 @@ const Services = () => {
         <Link to="services" smooth={true} spy={true}>
           <span>Services</span>
         </Link>
-        <spane>
-         Software developer with 2.7 years of experience building websites and web applications
-          <br />
-          using React JS,React Native,Redux,Thunk,Saga,Node JS,ASP.NET,C Sharp,MongoDB,MySQL,
-          <br />
-          Restful API's and modern JavaScript tools/frameworks.
-        </spane>
+        <span>
+        Build robust, scalable, and high-performance web applications
+        using the MERN stack  <br />(MongoDB, Express.js, React, Node.js). 
+        From database design to dynamic frontend interfaces, <br />I deliver 
+         complete end-to-end solutions tailored to your business needs.
+        </span>
         <a href={Resume} download>
           <button className="button s-button">Download CV</button>
         </a>
@@ -52,7 +51,7 @@ const Services = () => {
           <Card
             emoji={HeartEmoji}
             heading={"Proficient"}
-            detail={"Data Structures, Algorithms,C++,C,React JS,Redux"}
+            detail={"Data Structures, Algorithms,JavaScript,React JS,Redux,Node JS"}
           />
         </motion.div>
         {/* second card */}
@@ -63,8 +62,8 @@ const Services = () => {
         >
           <Card
             emoji={Glasses}
-            heading={"Frontend Developer"}
-            detail={"Html, Css, JavaScript, React,Redux,Redux Thunk, Nodejs, Express,Bootstrap,Materail UI,Rest API"}
+            heading={"Technical Skills"}
+            detail={"Html, Css, JavaScript,React,Redux,Redux Thunk, Nodejs, Express,Bootstrap,Materail UI,Tailwind, Rest API,Next JS, Mocha, Jest, AWS, Azure, MongoDB, MySQL, Postgres"}
           />
         </motion.div>
         {/* 3rd */}
@@ -76,7 +75,7 @@ const Services = () => {
           <Card
             emoji={Humble}
             heading={"Tools"}
-            detail={"Git,GitHub,Heroku,Netlify,Agile Methodology,Webpack"}
+            detail={"Git,GitHub,Agile Methodology,Webpack,Figma, Jira, Postman, Swagger"}
             color="rgba(252, 166, 31, 0.45)"
           />
         </motion.div>

@@ -21,6 +21,13 @@ const Intro = () => {
   // context
   const theme = useContext(themeContext);
   const darkMode = theme.state.darkMode;
+  const getExperienceYears = () => {
+    const startDate = new Date("2021-01-10"); // Replace with your actual start date
+    const now = new Date();
+    const diffInMs = now - startDate;
+    const diffInYears = diffInMs / (1000 * 60 * 60 * 24 * 365.25);
+    return diffInYears.toFixed(1); // 1 decimal point, like 4.6
+  };
 
   return (
     <div className="Intro" id="Intro">
@@ -31,8 +38,7 @@ const Intro = () => {
           <span style={{ color: darkMode ? "white" : "" }}>Hy! I Am</span>
           <span>Abhay Rai</span>
           <span>
-            Software Developer with high level of experience in web designing
-            and development, producting the Quality work using React JS and Redux,React Native,Node JS,ASP.NET,C Sharp,MongoDB,MySQL.
+             Versatile Full-Stack Developer with {getExperienceYears()}+ years of experience building scalable, high-performance web applications using React.js, Next.js, Node.js, and MongoDB. Proven expertise in crafting dynamic UIs, integrating APIs, and optimizing frontend/backend performance. Recognized with multiple performance awards and contributor to impactful projects across fintech, gaming, airline, and job platforms. Passionate about clean code, problem-solving, and delivering seamless user experiences.
           </span>
         </div>
         <Link to="contact" smooth={true} spy={true}>
@@ -65,7 +71,7 @@ const Intro = () => {
           transition={transition}
           className="floating-div"
         >
-          <FloatinDiv img={crown} text1="Web" text2="Developer" />
+          <FloatinDiv img={crown} text1="Full Stack" text2="Developer" />
         </motion.div>
 
         {/* animation */}

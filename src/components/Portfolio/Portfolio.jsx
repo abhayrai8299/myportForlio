@@ -6,6 +6,8 @@ import Meal from "../../img/Meal.png";
 import Mploi from '../../img/mploie.png'
 import Minerva from '../../img/minerva.png'
 import CalmAir from '../../img/calmairline.png'
+import PushGaming from '../../img/pushGaming.png'
+import Ekart from '../../img/Ekart.png'
 import pacificCoastal from '../../img/pacificcoastel.png'
 import BearSkin from '../../img/BearSkin.png'
 import Expenditure from "../../img/Expenditure.png";
@@ -31,6 +33,12 @@ const Portfolio = () => {
         grabCursor={true}
         className="portfolio-slider"
       >
+             <SwiperSlide>
+        <a href="https://www.pushgaming.com/">  <img src={PushGaming} alt="" height={220} /></a>
+        </SwiperSlide>
+        <SwiperSlide>
+        <a href="https://www.equipped.ai/minerva-software">  <img src={Ekart} alt="" height={220} /></a>
+        </SwiperSlide>
           <SwiperSlide>
         <a href="https://www.equipped.ai/minerva-software">  <img src={Minerva} alt="" height={220} /></a>
         </SwiperSlide>

@@ -26,6 +26,14 @@
     font-size: 16px;
     padding: 11px 26px 11px 26px;
   }
+  #services,
+  #works,
+  #portfolio,
+  #testimonial,
+  #contact {
+    scroll-margin-top: 10vh; /* Same as navbar height */
+  }
+  
   
   .button:hover {
     background: white;
@@ -40,6 +48,3 @@
     }
   }
 
-  
-
-  

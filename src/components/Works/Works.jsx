@@ -28,15 +28,14 @@ const Works = () => {
             Works for All these
           </span>
           <span>Brands & Clients</span>
-          <spane>
-          Document with a price showing the cost of that travel, passenger and journey details.
-            <br />
-            Flight tickets have departure and arrival details, PNR and booking code, seat number, and boarding time on them.
-            <br />
-            Passengers can also get their tickets by searching “Find flight tickets for X” through mobile applications or websites.
-            <br />
-            You might as well purchase cheap flight tickets on Calm.com or Pacific Coatel Airlines Mobile Application
-          </spane>
+          <span>
+          As a Full Stack Developer, I’ve had the opportunity to collaborate with diverse brands and clients across fintech,
+          <br /> gaming, airline, HR, and e-commerce domains. I’ve contributed to building scalable web platforms, designing
+          <br /> dynamic user interfaces, and integrating complex backend systems. With a strong focus on clean architecture, 
+          <br />performance optimization, and seamless user experiences, I help businesses transform ideas into impactful digital solutions.
+
+
+          </span>
           <Link to="contact" smooth={true} spy={true}>
             <button className="button s-button">Hire Me</button>
           </Link>
